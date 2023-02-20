@@ -28,6 +28,13 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3");
+        String firstName = "Семён"; // Имя
+        String middleName = "Семёнович"; // Отчество
+        String lastName = "Иванов"; // Фамилия
+        String fullName = lastName + " " + firstName + " " + middleName; // Ф.И.О. полностью
+        fullName = fullName.replace("ё", "е"); // Замена
+
+        System.out.println("Данные ФИО сотрудника — " + fullName);
 
     }
 }
