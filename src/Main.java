@@ -18,6 +18,12 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
+        String firstName = "Ivan"; // Имя
+        String middleName = "Ivanovich"; // Отчество
+        String lastName = "Ivanov"; // Фамилия
+        String fullName = lastName + " " + firstName + " " + middleName; // Ф.И.О. полностью
+
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.toUpperCase());
 
     }
     public static void task3 () {
